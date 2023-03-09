@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.amonacelli.lessons.ClickCounterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-09T11:33:16" hostname="MONAC-LAPTOP" time="0.019">
+  <properties/>
+  <testcase name="getValue()" classname="com.amonacelli.lessons.ClickCounterTest" time="0.019"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
