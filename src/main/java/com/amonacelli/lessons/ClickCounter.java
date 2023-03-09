@@ -3,7 +3,7 @@ package com.amonacelli.lessons;
 //Lecture date: 9th March 2023
 public class ClickCounter {
     //Class that will count the number of clicks on a certain area
-    int clicks;     //Attribute that represents the number of clicks
+    private int clicks;     //Attribute that represents the number of clicks
 
     //Default Constructor for the class
     public ClickCounter() {     //This constructor initializes all the attributes of the class (in this case we just have a single attribute)
@@ -31,6 +31,8 @@ public class ClickCounter {
     }
 
     /*
+    //NOTE: static methods and/or static attributes can be accessed from outside the class regardless of the presence of Class instances (objects)
+    //Usually they refer to methods or attributes that don't depend on the internal state of an object
     public static void main(String[] args) {
         ClickCounter cc1 = new ClickCounter();
         cc1.click();
